@@ -1,0 +1,14 @@
+<!--pages/me/me.wxml-->
+<!-- 未登录 -->
+<view class="me" wx:if="{{!loginOK}}">
+  <button class="denglu" type="primary" bindtap="denglu">登录</button>
+  <button class="zhuce" type="primary" bindtap="zhuce">注册</button>
+</view>
+<!-- 登录成功 -->
+<view wx:else class="login-ok" > 
+  <text class="text">登录成功</text>
+  <view>
+    <text class="user">账号：{{name}}</text>
+  </view>
+  <button bindtap="tuichu">退出</button>
+</view>

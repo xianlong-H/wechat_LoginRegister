@@ -1,0 +1,11 @@
+/* pages/me/me.wxss */
+.denglu{
+  margin-top: 30rpx;
+  }
+.zhuce{
+margin-top: 30rpx;
+}
+.login-ok{
+  text-align: center;
+  font-size: large;
+}

@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+输入账号
+<input class="input" bindinput="getZhanghao"></input>
+输入密码
+<input class="input" bindinput="getMima"></input>
+<button bindtap="login" type="primary">登录</button>
